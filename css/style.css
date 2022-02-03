@@ -131,8 +131,12 @@ font-weight:600;
 font-size: 14px;
 }
 
-li:hover {
+li:hover:not(.no-border) {
 border-bottom: 1px solid blue;
 }
 
 /*Header nav bar */
+
+/* Main*/
+
+/* Jumbohead*/
