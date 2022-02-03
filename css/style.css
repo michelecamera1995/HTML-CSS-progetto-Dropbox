@@ -39,6 +39,14 @@ body {
     text-align: center;
 }
 
+.padding{
+    padding: 25px;
+}
+
+.inline{
+    display: inline-block;
+}
+
 .margintop{
     margin-top: 100px;
 }
@@ -50,7 +58,6 @@ body {
 .bg-clfooter{
     background-color:#23272a ;    
 }
-
 
 .container{
     width:1200px;
@@ -85,12 +92,21 @@ body {
     width: 45%;
 }
 
+.w-50{
+    width: 50%;
+}
+
+
 .w-60{
     width: 60%;
 }
 
 .w-70{
     width: 70%;
+}
+
+.w-100{
+    width: 100%;
 }
 
 /* content widht */
@@ -216,6 +232,11 @@ section div.headercol h2{
     font-size:35px
 }
 
+
+section div.headercol h2{
+    padding:50px 0px;
+}
+
 section.subscription span{
     padding: 0px 30px 30px 0px;
 }
@@ -238,7 +259,20 @@ section.subscription span{
     
 }
 
-.subcolumn h6{
+h2{
+    font-size: 35px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h6{
     width: 100%;
     border-bottom: 0.5px solid black;
     text-align: center;
@@ -247,15 +281,6 @@ section.subscription span{
     vertical-align: middle;
     font-weight: 500;
     font-size: 15px;
-}
-
-.subcolumn h4{
-    font-size: 20px;
-}
-
-.subcolumn h5{
-    font-size: 15px;
-    font-weight: bold;
 }
 
 .subcolumn :not(h6 ,h4, h5){
@@ -278,4 +303,18 @@ section.subscription span{
     content: "\f00c";
 }
 
+.undercol{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    padding-bottom: 30px;
+}
 
+.undercol h5{
+    padding-left: 26px;
+}
+
+.undercol p{
+    padding-left: 26px;
+    padding-top: 40px;
+}
