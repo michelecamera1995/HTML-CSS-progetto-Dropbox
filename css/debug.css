@@ -1,0 +1,34 @@
+
+.debugheader{
+    background-color: rgb(50, 47, 255);
+    height: 80px;
+}
+
+.debugarticle{
+    background-color: greenyellow;
+    height: 250px;
+}
+
+.debugsection{
+    background-color: rgb(68, 47, 255);
+    height:600px;
+}
+
+.debugborder{
+    border: 0.5px solid red;
+}
+
+.debugjumbo{
+    background-color: greenyellow;
+    height: 550px;
+}
+
+.debugheight{
+    height: 250px;
+}
+
+.debugsocial{
+    height: 50px;
+    background-color: blue;
+}
+

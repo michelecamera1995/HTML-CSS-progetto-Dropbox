@@ -1,0 +1,55 @@
+
+/* general */
+
+* {
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* general */
+/* utilities */
+
+.float-left{
+    float:left
+}
+
+.text-align{
+    text-align: center;
+}
+
+.margin-bottom{
+    margin-bottom: 80px;
+}
+
+.bg-clheader{
+    background-color:#3161e0 ;    
+}
+
+.bg-clfooter{
+    background-color:#23272a ;    
+}
+
+
+/* utilities */
+/* content widht */
+
+
+.w-15{
+    width: 15%;
+}
+
+.w-70{
+    width: 70%;
+}
+
+
+/* content widht */
+/* content button */
