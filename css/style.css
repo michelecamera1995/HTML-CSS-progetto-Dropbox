@@ -18,7 +18,13 @@ body {
     width: 100vw;
 }
 
+.icon{
+   padding:0px;
+   margin:4px;
+}
+
 /* general */
+
 /* utilities */
 
 .float-left{
@@ -33,12 +39,12 @@ body {
     text-align: center;
 }
 
-.margin{
-    margin: 20px;
+.margintop{
+    margin-top: 100px;
 }
 
-.bg-clheader{
-    background-color:#3161e0 ;    
+.bg-jumbo{
+    background-color: cornflowerblue;;    
 }
 
 .bg-clfooter{
@@ -46,7 +52,13 @@ body {
 }
 
 
+.container{
+    width:1200px;
+    margin: 0px auto;  
+}
+
 /* utilities */
+
 /* content widht */
 
 .w-10{
@@ -69,10 +81,17 @@ body {
     width: 40%;
 }
 
+.w-45{
+    width: 45%;
+}
+
+.w-60{
+    width: 60%;
+}
+
 .w-70{
     width: 70%;
 }
-
 
 /* content widht */
 
@@ -89,7 +108,6 @@ body {
     opacity: 0.7;
 }
 
-
 /* content button */
 
 /* Header nav bar*/
@@ -100,6 +118,7 @@ body {
     height: 80px;
     line-height: 80px;
     z-index: 500;
+    background-color: white;
 }
 
 .header img{
@@ -131,12 +150,132 @@ font-weight:600;
 font-size: 14px;
 }
 
-li:hover:not(.no-border) {
+header li:hover:not(.no-border) {
 border-bottom: 1px solid blue;
 }
 
 /*Header nav bar */
 
-/* Main*/
+/*Main*/
+
+/*Jumbohead*/
+
+.containerjumb {
+    width: 1400px;
+    margin: 0px auto;
+    padding-top: 80px;
+    height:770px;
+    }
+
+ .containerjumb h1{
+    padding: 50px 0px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.containerjumb p{
+    padding-bottom: 30px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.containerjumb .p1{
+    padding-top: 10px;
+    font-size: small;
+    
+}
+
+.containerjumb span i{
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+    
+ .jumboimg{
+    width: 850px;
+    z-index: 10;
+}
 
 /* Jumbohead*/
+
+/* Section one: column subscription*/
+
+section.subscription{
+    padding-top: 180px;
+}
+
+.headercol{
+    width: 100%;
+    padding-left:  10px;
+    padding-right: 10px;
+}
+
+section div.headercol h2{
+    padding:50px 0px;
+    font-size:35px
+}
+
+section.subscription span{
+    padding: 0px 30px 30px 0px;
+}
+
+.bordercolumn{
+    border: 0.5px solid black;
+    
+}
+
+.subcolumn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    padding-bottom: 120px;
+    
+}
+
+.subcolumncentr{
+    margin: 30px 50px 75px;
+    
+}
+
+.subcolumn h6{
+    width: 100%;
+    border-bottom: 0.5px solid black;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.subcolumn h4{
+    font-size: 20px;
+}
+
+.subcolumn h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.subcolumn :not(h6 ,h4, h5){
+    font-size:small;
+    font-weight: 600;
+}
+
+.subcolumn  div:not(.coltop){
+    padding-top: 35px;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.subcolumn div ul li{
+    text-align: left;
+    padding-top: 15px;
+}
+
+.check ul li:before{
+    content: "\f00c";
+}
+
+
