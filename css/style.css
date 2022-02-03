@@ -43,6 +43,10 @@ body {
     padding: 25px;
 }
 
+.margin-scrollbar{
+    margin-right:20px;
+}
+
 .inline{
     display: inline-block;
 }
@@ -111,6 +115,34 @@ body {
 
 /* content widht */
 
+/* Title sizes and weight */
+
+h2{
+    font-size: 35px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h6{
+    width: 100%;
+    border-bottom: 0.5px solid black;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* Title sizes and weight */
+
 /* content button */
 
 .labelbtn{
@@ -163,7 +195,7 @@ margin: 10px 10px;
 text-decoration: none;
 color: lightslategrey;
 font-weight:600;
-font-size: 14px;
+font-size: 13px;
 }
 
 header li:hover:not(.no-border) {
@@ -206,8 +238,7 @@ border-bottom: 1px solid blue;
     font-weight: bold;
     font-size: 40px;
     
-}
-    
+}   
  .jumboimg{
     width: 850px;
     z-index: 10;
@@ -231,7 +262,6 @@ section div.headercol h2{
     padding:50px 0px;
     font-size:35px
 }
-
 
 section div.headercol h2{
     padding:50px 0px;
@@ -257,30 +287,6 @@ section.subscription span{
 .subcolumncentr{
     margin: 30px 50px 75px;
     
-}
-
-h2{
-    font-size: 35px;
-}
-
-h4{
-    font-size: 20px;
-}
-
-h5{
-    font-size: 15px;
-    font-weight: bold;
-}
-
-h6{
-    width: 100%;
-    border-bottom: 0.5px solid black;
-    text-align: center;
-    height: 45px;
-    line-height: 45px;
-    vertical-align: middle;
-    font-weight: 500;
-    font-size: 15px;
 }
 
 .subcolumn :not(h6 ,h4, h5){
