@@ -474,7 +474,7 @@ section.subscription span{
     padding: 10px;
   }
 
-  .iconlogo1{
+.iconlogo1{
     height: 55px; 
 }
 
@@ -492,6 +492,10 @@ section.subscription span{
 
 .iconlogo5{
     height: 35px;   
+}
+
+.ico img:not(.logocentr){
+    filter: invert(100%);
 }
 
   .sq1{
