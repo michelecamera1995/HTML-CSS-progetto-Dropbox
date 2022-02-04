@@ -93,6 +93,12 @@ body {
     margin: 0px auto;  
 }
 
+.smallline{
+    width:10px;
+    margin-left:25px;
+    border-bottom: 0.5px solid black;
+}
+
 /* utilities */
 
 /* content widht */
@@ -324,7 +330,7 @@ section.subscription span{
 }
 
 .bordercolumn{
-    border: 0.5px solid black;
+    border: 0.1px solid black;
     
 }
 
@@ -332,7 +338,7 @@ section.subscription span{
     margin-top: 30px;
     text-align: left;
     padding-bottom: 120px;   
-    min-height: 800px;
+    min-height: 850px;
 }
 
 .subcolumncentr{
