@@ -182,11 +182,17 @@ h6{
     font-weight: 700;
 }
 
+* a{
+	font-size: 13px;
+    font-weight: 700;
+}
+
 /* Title sizes and weight */
 
 /* content button */
 
 .labelbtn{
+    text-align: center;
     padding: 5px 15px;
     text-decoration: none;
 }
@@ -245,8 +251,6 @@ nav ul li a {
 margin: 10px 10px;
 text-decoration: none;
 color: lightslategrey;
-font-weight:600;
-font-size: 13px;
 }
 
 header li:hover:not(.no-border) {
@@ -389,8 +393,6 @@ section.subscription span{
 .partner a{
     display: inline-block;
     margin-top: 20px; 
-    font-size: 13px;
-    font-weight: 600;
 }
 
 /* Section one: column subscription*/
@@ -424,6 +426,7 @@ section.subscription span{
 }
 
 /* Section two: cards*/
+
 /* Section three: team members*/
 
 .colsquareboxleft {
@@ -522,6 +525,17 @@ section.subscription span{
   .sq8{
     background-color: #ffd830 ;
   }
+
+  .undersquare{
+    padding: 100px 0px 100px 230px;
+  }
+
+  .undersquare div{
+    padding-left: 145px;
+    border: none;
+  }
+
+/* Section three: team members*/
 
 
 
