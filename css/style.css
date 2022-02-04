@@ -462,6 +462,11 @@ section.subscription span{
     margin: 0;
   }
 
+  .square:active{
+    outline: 10px solid rgba(255, 255, 255, 0.5);
+    outline-offset: -10px;
+    }
+
   .square img {
     position: absolute;
     top: 50%;
