@@ -47,6 +47,22 @@ body {
     margin-right:20px;
 }
 
+.margin-top10{
+    margin-top:10%;
+}
+
+.margin-top15{
+    margin-top:15%;
+}
+
+.margin-top20{
+    margin-top:20%;
+}
+
+.margin-top30{
+    margin-top:30%;
+}
+
 .inline{
     display: inline-block;
 }
@@ -71,6 +87,10 @@ body {
 /* utilities */
 
 /* content widht */
+
+.w-8{
+    width: 8%;
+}
 
 .w-10{
     width: 10%;
@@ -146,10 +166,19 @@ h6{
 /* content button */
 
 .labelbtn{
-    background-color: blue;
-    color:white;
     padding: 5px 15px;
     text-decoration: none;
+}
+
+.labelbtnwh{
+    border:1px solid black;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+
+.labelbtnblue{
+    background-color: blue;
+    color:white;
 }
 
 .labelbtn:hover {
@@ -171,8 +200,9 @@ h6{
 
 .header img{
     padding-left: 10px;
+    margin-right: 15px;
     vertical-align: middle;
-    width: 150px;
+    width: 120px;
 }
 
 ul{
@@ -280,13 +310,11 @@ section.subscription span{
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: left;
-    padding-bottom: 120px;
-    
+    padding-bottom: 120px;   
 }
 
 .subcolumncentr{
-    margin: 30px 50px 75px;
-    
+    margin: 30px 50px 75px;   
 }
 
 .subcolumn :not(h6 ,h4, h5){
@@ -322,5 +350,32 @@ section.subscription span{
 
 .undercol p{
     padding-left: 26px;
-    padding-top: 40px;
+    padding-top: 25px;
+    font-size: small;
+    font-weight: 600;
 }
+
+.partner img{
+    height: 560px;
+}
+
+.partner h4{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.partner p {
+    margin-top: 20px; 
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.partner a{
+    display: inline-block;
+    margin-top: 20px; 
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* Section one: column subscription*/
