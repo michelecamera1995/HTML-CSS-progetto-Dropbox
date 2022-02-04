@@ -18,7 +18,7 @@ body {
     width: 100vw;
 }
 
-.icon{
+* i{
    padding:0px;
    margin:4px;
 }
@@ -135,7 +135,7 @@ body {
 
 /* content widht */
 
-/* Title sizes and weight */
+/* Title and P sizes and weight */
 
 h2{
     font-size: 35px;
@@ -159,6 +159,11 @@ h6{
     vertical-align: middle;
     font-weight: 500;
     font-size: 15px;
+}
+
+* p{
+	font-size: 13px;
+    font-weight: 700;
 }
 
 /* Title sizes and weight */
@@ -255,7 +260,6 @@ border-bottom: 1px solid blue;
 .containerjumb p{
     padding-bottom: 30px;
     text-align: left;
-    font-weight: 600;
 }
 
 .containerjumb .p1{
@@ -284,8 +288,6 @@ section.subscription{
 
 .headercol{
     width: 100%;
-    padding-left:  10px;
-    padding-right: 10px;
 }
 
 section div.headercol h2{
@@ -308,9 +310,9 @@ section.subscription span{
 
 .subcolumn{
     margin-top: 30px;
-    margin-bottom: 30px;
     text-align: left;
     padding-bottom: 120px;   
+    min-height: 800px;
 }
 
 .subcolumncentr{
@@ -333,8 +335,9 @@ section.subscription span{
     padding-top: 15px;
 }
 
-.check ul li:before{
-    content: "\f00c";
+.check li i{
+    
+    color:blue;
 }
 
 .undercol{
@@ -351,8 +354,6 @@ section.subscription span{
 .undercol p{
     padding-left: 26px;
     padding-top: 25px;
-    font-size: small;
-    font-weight: 600;
 }
 
 .partner img{
@@ -366,8 +367,6 @@ section.subscription span{
 
 .partner p {
     margin-top: 20px; 
-    font-size: 13px;
-    font-weight: 600;
     line-height: 25px;
 }
 
@@ -379,3 +378,33 @@ section.subscription span{
 }
 
 /* Section one: column subscription*/
+/* Section two: cards*/
+
+.card{
+    margin-top: 90px;
+    position: relative;
+}
+
+.centrcard{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.card img{
+    width: auto;
+    top: 0%;
+    left: 0%;
+    height: 291px;
+}
+
+.card h4{
+    margin-top: 15px; 
+    font-size: 25px;
+}
+
+.card p{
+    margin-top: 15px; 
+    line-height: 20px;
+}
+
+/* Section two: cards*/
