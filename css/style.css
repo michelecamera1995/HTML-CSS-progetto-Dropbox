@@ -588,8 +588,12 @@ section.subscription span{
 
 .askslide:hover  .hide{
     display: inline-block;
+    padding: 15px;
 }
 
+.askslide:hover  i{
+    display: none;
+}
 .askslide h5{
     padding-top:  30px;
     padding-bottom:30px;
