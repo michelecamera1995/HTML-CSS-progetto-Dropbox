@@ -85,7 +85,7 @@ body {
 }
 
 .bg-clfooter{
-    background-color:#23272a ;    
+    background-color:#000000 ;    
 }
 
 .container{
@@ -102,6 +102,10 @@ body {
 /* utilities */
 
 /* content widht */
+
+.w-5{
+    width: 5%;
+}
 
 .w-8{
     width: 8%;
@@ -599,6 +603,46 @@ section.subscription span{
 }
 
 /* End section four:frequent ask*/
+/* Footer*/
+
+.footbox{
+    padding: 5% 5% 10% 5%;
+}
+
+.footbox div{
+    vertical-align:top;
+    margin-left: 7%;
+    min-height: 50%;
+}
+
+.footbox div h5{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;  
+}
+
+.footbox div li{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: lightslategrey;
+    font-size: 13px;
+    font-weight: 700;   
+}
+
+.underfooter span{
+    border-top: 1px solid lightslategray;
+    margin-top: 5%;
+    margin-left: 11%;
+    padding: 2% 0% 2% 0%;
+    max-width: 8%;
+    color: lightslategray;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.underfooter i{
+    padding: 2% 0% 2% 0%;
+}
 
 
 

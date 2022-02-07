@@ -29,7 +29,7 @@
 }
 
 .debugsocial{
-    height: 50px;
+    height: 80px;
     background-color: blue;
 }
 
@@ -38,6 +38,11 @@
     height: 650px;
 }
 
+
+.debuglist{
+    background-color: rgb(255, 0, 0);
+    height: 100px;
+}
 
 
 
