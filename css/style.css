@@ -563,8 +563,8 @@ section.subscription span{
 /* Section four:frequent ask*/
 
 .askbox{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .askbox{
@@ -572,8 +572,8 @@ section.subscription span{
 }
 
 .askslide div i{
-    padding-top: 30%;
-    padding-bottom: 30%;    
+    padding-top: 30px;
+    padding-bottom: 30px;    
 }
 
 .askslide{
@@ -591,8 +591,8 @@ section.subscription span{
 }
 
 .askslide h5{
-    padding-top:3%;
-    padding-bottom:3%;
+    padding-top:  30px;
+    padding-bottom:30px;
     margin: 0%;
     display: inline-block;
 }
@@ -611,29 +611,30 @@ section.subscription span{
 
 .footbox div{
     vertical-align:top;
-    margin-left: 7%;
-    min-height: 50%;
+    margin-left: 70px;
 }
 
 .footbox div h5{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    
+    padding-top: 25px;
+    padding-bottom: 25px;
     color: white;  
 }
 
-.footbox div li{
-    padding-top: 2%;
-    padding-bottom: 2%;
+.footbox div li a{
+    text-align: left;
+    line-height: 2;
     color: lightslategrey;
     font-size: 13px;
-    font-weight: 700;   
+    font-weight: 700;  
+    text-decoration: none; 
 }
 
 .underfooter span{
     border-top: 1px solid lightslategray;
-    margin-top: 5%;
-    margin-left: 11%;
-    padding: 2% 0% 2% 0%;
+    margin-top: 15px;
+    margin-left: 150px;
+    padding: 20px 0px 20px 0px;
     max-width: 8%;
     color: lightslategray;
     font-size: 13px;
